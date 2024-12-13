@@ -1,0 +1,49 @@
+body, html {
+	height: 100%;
+	width: 100%;
+	font-family: "Nerko One", serif;
+  	font-weight: 400;
+  	font-style: normal;
+  	background: url(images/header.jpg) no-repeat center center fixed;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+	background-size: cover;
+}
+
+h1 {
+	font-size: 3rem;
+	color: #E2DBDB;
+}
+
+hr {
+	border: 2px solid #FE5F44;
+	max-width: 65px;
+	margin: 20px auto;
+	opacity: 1;
+}
+
+.buffer {
+	height: 10rem;
+}
+
+.btn {
+	font-weight: 700;
+	border-radius: 300px;
+	text-transform: uppercase;
+}
+
+.btn-xl {
+	padding: 1rem 2rem;
+}
+
+.btn-primary {
+	background-color: #FE5F44;
+	border-color: #FE5F44;
+}
+
+.btn-primary:hover {
+	background-color: #f84e30;
+	border-color: #f84e30;
+	border-width: 4px;
+}
